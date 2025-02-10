@@ -6,8 +6,8 @@
 #include <BlynkSimpleEsp8266.h>
 #include <ESP8266WiFi.h>
 char auth[] = "SBLg5lJpGoagcRucuBS0tnwHaHWsFjmA"; // Your Blynk authentication token
-char ssid[] = "IRFAN"; // Your WiFi network SSID
-char pass[] = "aasmaaasma"; // Your WiFi network password
+char ssid[] = ""; // Your WiFi network SSID
+char pass[] = ""; // Your WiFi network password
 // Define pins for IR sensors for each parking slot
 int irSensorPins[] = {D1, D2, D3, D4, D5, D6};
 int numSlots = 6;
